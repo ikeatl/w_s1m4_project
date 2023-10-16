@@ -1,0 +1,100 @@
+<!-- Intro to HTML & CSS I
+
+  Module Project Overview
+
+    You will build a website to display the bio of your favorite programmer, artist, etc.
+
+    In order to do this, you will create an `index.html` file and scaffold the document
+    with the elements shared by all HTML documents:
+
+    - doctype declaration
+    - html element
+    - head, containing a title and an optional style tag
+    - body, containing the markup that renders to the screen
+
+  Requirements
+
+    Review this article: https://www.w3schools.com/html/html5_semantic_elements.asp
+
+    Create an `index.html` file for your site, or use this same file.
+
+    For your site, you will make use of at least the following semantic elements:
+
+    - header (to contain the main heading of the site, and the nav)
+    - nav (to contain some links to navigate to the different sections of this document)
+    - section (each holding at least a heading and a paragraph)
+    - aside (containing an img and a caption)
+    - footer (containing a contact form)
+    - form (containing at least two inputs with their labels)
+
+    See an example of a finished site: https://bloominstituteoftechnology.github.io/img/anita-borg-bio-website.png
+
+    The example above is quite simple, but you can make your site as fancy as you'd like. -->
+
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <header>
+          <h1>My favorite Programmer</h1>
+          <p>Posted by Ike Atulomah</p>
+          <nav>
+            <a href="https://www.youtube.com/channel/UCBRCfFlSs2xSJV26bVCO9dA" target="_blank">Elisha's Youtube channel</a>
+          </nav>
+        </header>
+        <style> 
+        header {
+          display: block;
+        }
+        </style>
+      </head>
+      <body>
+        <div> 
+          
+          
+        </div>
+        <section> 
+          <h2>Elisha Atulomah's Bio</h2>
+          <h3>Overview</h3>
+          <p>His name is Elisha Uchechi Atulomah. He was born on the 30th of May 1990. He has been working as<br>
+             a programmer for about 5 years now. He is my husband, and i am very proud of the<br>
+            man that he is. My husband is a multifaceted individaual, patient and hardworking. He is full of life,<br>
+             loves his family, and above all loves God. He put everyone ahead of himself. 
+            </p>
+          
+        </section>
+        <aside><img src="https://try-lifegpa.netlify.app/Images/profilePictures/Elisha.png" style="vertical-align: middle;" height="250" width="250">
+          <h4>Image of Elisha Atulomah</h4>
+          <h3>Awards and recognition</h3>
+          <p>
+            1. He is a great person.<br><br>
+            2.He is intentional.<br><br>
+            3. he is a great husband.<br><br>
+            4. He is a great father.<br><br>
+            5. He is a mastermind.<br><br>
+            6. He is a family man.<br><br>
+            7. He is down to earth.<br><br>
+          </p>
+          <p>There is nothing that he does that he isn't good at. He takes his time to learn and perfect with I
+            ntentionality his trades. I am beyond proud of his work ethics and his heart. 
+            He is an unstoppable forac and I hope he knows this and remeber this always. </p>
+        </aside>
+        <footer>
+          <p>Author: Ikeoluwa Atulomah</p>
+          <p><a href="mailto:adesinaikeoluwa4@gmail.com">adesinaikeoluwa4@gmail.com</a></p>
+        </footer>
+        <h3>How to contact you</h3>
+        <form>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">email address:</label>
+            <input type="text" id="email" name="email"><br><br>
+            <input type="submit" value="Submit">
+            <style>
+              input {color: red;}
+            </style>
+        </form>
+      </body>
+      
+    </html>
